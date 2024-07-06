@@ -1,2 +1,3 @@
+/Users/mymac/Desktop/Professional/Rubiks_Cube_Solver/cmake-build-debug/CMakeFiles/Rubiks_Cube_Solver.dir
 /Users/mymac/Desktop/Professional/Rubiks_Cube_Solver/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/mymac/Desktop/Professional/Rubiks_Cube_Solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
