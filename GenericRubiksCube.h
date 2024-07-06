@@ -6,6 +6,8 @@
 #define RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
 
 #include "bits/stdc++.h"
+#include<vector>
+#include<iostream>
 using namespace std;
 
 
@@ -68,7 +70,7 @@ public:
 
     virtual GenericRubiksCube &l() = 0;
 
-    virtual GenericRubiksCub &lPrime() = 0;
+    virtual GenericRubiksCube &lPrime() = 0;
 
     virtual GenericRubiksCube &l2() = 0;
 

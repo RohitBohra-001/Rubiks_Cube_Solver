@@ -219,7 +219,7 @@ vector<GenericRubiksCube::MOVE> GenericRubiksCube::randomShuffleCube(unsigned in
 }
 
 //Helper function returns string of corner
-string RubiksCube::getCornerColorString(uint8_t ind) const {
+string GenericRubiksCube::getCornerColorString(uint8_t ind) const {
     string str = "";
 
     switch (ind) {
@@ -282,7 +282,7 @@ string RubiksCube::getCornerColorString(uint8_t ind) const {
     return str;
 }
 
-uint8_t RubiksCube::getCornerIndex(uint8_t ind) const {
+uint8_t GenericRubiksCube::getCornerIndex(uint8_t ind) const {
     string corner = getCornerColorString(ind);
 
     uint8_t ret = 0;
@@ -309,7 +309,7 @@ uint8_t RubiksCube::getCornerIndex(uint8_t ind) const {
     return ret;
 }
 
-uint8_t RubiksCube::getCornerOrientation(uint8_t ind) const {
+uint8_t GenericRubiksCube::getCornerOrientation(uint8_t ind) const {
     string corner = getCornerColorString(ind);
 
     string actual_str = "";
