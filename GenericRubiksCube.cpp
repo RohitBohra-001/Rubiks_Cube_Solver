@@ -8,7 +8,6 @@
 //Given a color return it's first letter
 //
 
-
 char GenericRubiksCube::getColorLetter(COLOR color) {
     switch (color) {
         case COLOR::BLUE:
