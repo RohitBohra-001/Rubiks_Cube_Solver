@@ -3,4 +3,8 @@ project(Rubiks_Cube_Solver)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Rubiks_Cube_Solver main.cpp)
+add_executable(Rubiks_Cube_Solver main.cpp
+        RubiksCube1dArray.cpp
+        RubiksCube3dArray.cpp
+        RubiksCubeBitboard.cpp
+        GenericRubiksCube.cpp)
