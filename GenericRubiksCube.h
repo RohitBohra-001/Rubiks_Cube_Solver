@@ -5,7 +5,7 @@
 #ifndef RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
 #define RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
 
-#include "bits/stdc++.h"
+//#include "bits/stdc++.h"
 #include<vector>
 #include<iostream>
 using namespace std;
