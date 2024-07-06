@@ -1,0 +1,14 @@
+//
+// Created by Rohit Bohra on 06/07/24.
+//
+
+#ifndef RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
+#define RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
+
+
+class GenericRubiksCube {
+
+};
+
+
+#endif //RUBIKS_CUBE_SOLVER_GENERICRUBIKSCUBE_H
