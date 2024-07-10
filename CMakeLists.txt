@@ -10,4 +10,5 @@ add_executable(Rubiks_Cube_Solver main.cpp
         GenericRubiksCube.cpp
         DFSSolver.h
         BFSSolver.h
-        IDDFSSolver.h)
+        IDDFSSolver.h
+        IDAstarSolver.h)

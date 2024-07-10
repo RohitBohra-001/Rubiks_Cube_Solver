@@ -10,5 +10,23 @@ using namespace std;
 
 int main(){
 
+    RubiksCube3dArray c1;
+    RubiksCube3dArray c2;
+
+    if(c1 == c2) cout << "Cubes are equal" << endl;
+    else cout << "Cubes are not equal" << endl;
+
+    c1.l();
+
+    if(c1 == c2) cout << "Cubes are equal" << endl;
+    else cout << "Cubes are not equal" << endl;
+
+    c1 = c2;
+    c1.print();
+    c2.print();
+
+
+
+
     return 0;
 }
