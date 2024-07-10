@@ -9,4 +9,5 @@ add_executable(Rubiks_Cube_Solver main.cpp
         RubiksCubeBitboard.cpp
         GenericRubiksCube.cpp
         DFSSolver.h
-        BFSSolver.h)
+        BFSSolver.h
+        IDDFSSolver.h)
