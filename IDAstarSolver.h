@@ -7,7 +7,7 @@
 
 #include <queue>
 #include "./GenericRubiksCube.h"
-#include "../PatternDatabases/CornerPatternDatabase.h"
+#include "./PatternDatabases/CornerPatternDatabase.h"
 
 template<typename T, typename H>
 class IDAstarSolver {
